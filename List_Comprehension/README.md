@@ -1,5 +1,5 @@
 # Use List Comprehension
-A business wants to pack a shipping container. The objective is to maximize the total value, in dollars, of $N$ total objects that can fit in the container.
+A business wants to pack a shipping container. The objective is to maximize the total monetary value of $N$ total objects that can fit in the container.
 
 - The binary variable, $x_i $, represents whether the object is in the shipping container. If $x_i = 1$, item $i$ is in the container. If $x_i = 0$, item $i$ is not in the container.
   
@@ -14,7 +14,7 @@ For this assignment, the goal is to create a list comprehension that only return
 
 - The total number of items to select from is $N = 4$.
 
-- The cost of the items are $5, $10, $3, and $4, respectively.
+- The cost of each item is $5, $10, $3, and $4, respectively.
 
 - Items 2 and 4 are packed in the container.
 
@@ -27,7 +27,7 @@ The Python file that you will work on is named ``listcomprehension_practice.py``
 
 - Name the first list ``costs``. Add the following values, in order, to the list: 5, 10, 3, 4. This list represents the cost of each item.
 
-- Name the second list ``items``. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents if the item is packed in the shipping container. When the value is equal to 1, it is included in the container; if it is equal to 0, it is not in the container.
+- Name the second list ``items``. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents if the item is packed in the shipping container. When the value is equal to 1, the item is included in the container; if it is equal to 0, the item is not in the container.
   
 2. On a separate line, use list comprehension to create a new list and name it ``values``.
     

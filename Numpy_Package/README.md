@@ -32,8 +32,8 @@ The objective function is:
 
   **Note:**
 
-  - The first portion, `D[x[:-1], x[1:]]`, calculates the distance from one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all of these distances together.
-  - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the start.
+  - The first portion, `D[x[:-1], x[1:]]`, calculates the distance between one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all the distances.
+  - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the starting location.
   - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
 </li>
 </ul>
@@ -48,26 +48,26 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
 
 2. Using `numpy`, create the following two arrays:
 
-    - An $n × n$ distance array named `D`.
+    - An $n × n$ distance array, and name it `D`.
 
-        This array represents the distance, in kilometers, between locations. Populate the array with values shown in the graph below, where each node $p_i$ corresponds to location $i$, and each edge represents the distance between two locations. Assume that the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$.
+        This array represents the distance, in kilometers, between locations. Populate the array using the values shown in the graph below, where each node $p_i$ corresponds to location $i$, and each edge represents the distance between two locations. Assume that the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$.
         
         <img src=resources/numpymap.png width="400">
         
-    - A 1-D array named `x`, which contains a random ordering of the 5 locations.
+    - A 1-D array, and name it `x`, which contains a random ordering of the five locations.
     
         This array represents the order in which each location is visited. When submitting this problem to a D-Wave solver, the solver will determine the shortest itinerary from all possible permutations. For this assignment, however, you will work with a random order.
         
-        **Hint:** Use a built-in numpy function to generate the random order.
+        **Hint:** Use a built-in NumPy function to generate the random order.
 
-        **Example:** Assume the order in which each location is visited is returned as $x = [3 \ 0 \ 1 \ 4 \ 2]$, which means that your itinerary is:
+        **Example:** Assume the order in which each location is visited is returned as $x = [3 \ 0 \ 1 \ 4 \ 2]$, which means the itinerary is:
 
 $$ \text{location}_3 \to \text{location}_0 \to \text{location}_1 \to \text{location}_4 \to \text{location}_2 $$
 
 3. Compute the total distance traveled between consecutive locations, excluding the return trip to the origin. Define this value as `sum_of_itinerary`.
     
-    **Hint:** Use the `.sum()` method.
+    **Hint:** Use the `sum` method.
     
-4. Compute the distance between the last location and the starting location, and store it in a variable named `return_to_origin`.
+4. Compute the distance between the last location and the starting location and store it in a variable named `return_to_origin`.
    
 5. Compute the total distance traveled between locations, including the return trip to the origin, and store it as `total_distance`.
