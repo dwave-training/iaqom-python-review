@@ -15,7 +15,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
 The objective function is:
 
 ```math
-\min \left[
+\min \Bigl[
 \underbrace{(D[x[:-1], x[1:]])}_{\substack{
 \text{Distance between} \\
 \text{consecutive locations,} \\
@@ -27,7 +27,7 @@ The objective function is:
 \text{Return trip to the} \\
 \text{ origin.}
 }}
-\right]
+\Bigr]
 ```
 
   **Note:**
