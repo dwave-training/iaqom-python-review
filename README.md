@@ -3,7 +3,7 @@
   https://codespaces.new/dwave-training/iaqom-python-review?quickstart=1)
 
 # Python Review
-In this repository, there are five different folders corresponding to five separate assignments in the Implementation of Applied Quantum Optimization Models course. Each assignment folder includes instructions in the `Readme` file.
+In this repository, there are five different folders corresponding to five separate assignments in the Implementation of Applied Quantum Optimization Models course. Each assignment folder includes instructions in the `README` file.
 
 ## Exercise 1: Change a List
 For this assignment, open the `List` folder. Start by creating a list of strings, then replace one of the elements.
