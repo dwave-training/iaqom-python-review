@@ -9,7 +9,7 @@ In this repository, there are five different folders corresponding to five separ
 For this assignment, open the `List` folder. Start by creating a list of strings, then replace one of the elements.
 
 ## Exercise 2: Use a For Loop
-For this assignment, open the `For_Loop` folder. Use a for loop to return the value of a summation.
+For this assignment, open the `For_Loop` folder. Use a `for` loop to return the value of a summation.
 
 ## Exercise 3: Use List Comprehension
 For this assignment, open the `List_Comprehension` folder. Create a list comprehension that will return a list of some selected items.
