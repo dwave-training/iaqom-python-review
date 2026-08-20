@@ -17,5 +17,5 @@ For this assignment, open the `List_Comprehension` folder. Create a list compreh
 ## Exercise 4: Create a Function
 For this assignment, open the `Function` folder. Define and call a function that includes `if` statements.
 
-## Exercise 5: Use Numpy
+## Exercise 5: Use NumPy
 For this assignment, open the `Numpy_Package` folder. Create arrays using `numpy`. Then, compute a few values based on these arrays.

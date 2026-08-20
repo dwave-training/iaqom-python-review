@@ -1,4 +1,4 @@
-# Application using NumPy Package
+# Application Using the NumPy Package
 An individual is planning a driving trip to visit $n$ different locations exactly once. They want to drive the shortest distance possible to see all $n$ locations. The objective is to minimize the distance traveled between locations, including the return trip to the origin.
 
 
@@ -32,13 +32,13 @@ The objective function is:
 
   **Note:**
 
-  - The first portion, `D[x[:-1], x[1:]]`, calculates the distance between one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all the distances.
+  - The first portion, `D[x[:-1], x[1:]]`, calculates the distance between one location and the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all the distances.
   - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the starting location.
   - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
 </li>
 </ul>
 
-For this assignment, the goal is to use `numpy` to create an $n × n$ distance array and a 1-D array with randomly ordered elements using common built-in functions. Then, compute a few values based on these arrays. Assume the total number of locations to visit is $n = 5$.
+The goal of this assignment is to use NumPy built-in functions to create an $n × n$ distance array and a 1-D array of randomly ordered elements, and to compute a few values based on these arrays. Assume the total number of locations to visit is $n = 5$.
 
 ## Exercise
 
@@ -48,13 +48,13 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
 
 2. Using `numpy`, create the following two arrays:
 
-    - An $n × n$ distance array, and name it `D`.
+    - An $n × n$ distance array, named `D`.
 
         This array represents the distance, in kilometers, between locations. Populate the array using the values shown in the graph below, where each node $p_i$ corresponds to location $i$, and each edge represents the distance between two locations. Assume that the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$.
         
         <img src=resources/numpymap.png width="400">
         
-    - A 1-D array, and name it `x`, which contains a random ordering of the five locations.
+    - A 1-D array, named `x`, which contains a random ordering of the five locations.
     
         This array represents the order in which each location is visited. When submitting this problem to a D-Wave solver, the solver will determine the shortest itinerary from all possible permutations. For this assignment, however, you will work with a random order.
         

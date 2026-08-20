@@ -1,7 +1,7 @@
 # Use a For Loop
 A business wants to pack a shipping container. The objective is to maximize the total monetary value of $N$ total objects that can fit in the container.
 
-- The binary variable, $x_i $, represents whether the object is in the shipping container. If $x_i = 1$, item $i$ is in the container. If $x_i = 0$, item $i$ is not in the container.
+- The binary variable, $x_i$, represents whether the object is in the shipping container. If $x_i = 1$, item $i$ is in the container. If $x_i = 0$, item $i$ is not in the container.
   
 - The coefficient $c_i$ represents the cost of each item $i$.
   
@@ -10,7 +10,7 @@ A business wants to pack a shipping container. The objective is to maximize the 
 $$ \min - \sum_{i=1}^N c_i x_i $$
 
 
-For this assignment, use a for loop to return the value of the optimization objective when:
+For this assignment, use a `for` loop to return the value of the optimization objective when:
 
 - The total number of items to select from is $N = 4$.	
 
@@ -21,20 +21,20 @@ For this assignment, use a for loop to return the value of the optimization obje
 
 ## Exercise
 
-The Python file you will work on is named ``forloop_practice.py``.  Open it, then follow the instructions below:
+The Python file you will work on is named `forloop_practice.py`.  Open it, then follow the instructions below:
 
 1. Create two new lists:
 
-- Name the first list ``costs``. Add the following values, in order, to the list: 5, 10, 3, 4. This list represents the cost of each item.
+- Name the first list `costs`. Add the following values, in order, to the list: 5, 10, 3, 4. This list represents the cost of each item.
 
-- Name the second list ``items``. Add the following values, in order, to the list: 0,1,0,1. This list represents if the item is packed in the shipping container. When the value is equal to 1, the item is included in the container; if it is equal to 0, the item is not in the container.
+- Name the second list `items`. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents if the item is packed in the shipping container. When the value is equal to 1, the item is included in the container; if it is equal to 0, the item is not in the container.
   
-2. The final answer will be stored in ``value``. To begin, set ``value = 0``. This will change as the program runs.
+2. The final answer will be stored in `value`. To begin, set `value = 0`. This will change as the program runs.
    
 3. On a separate line, use a for loop to calculate the following:
    
 $$ - \sum_{i=1}^4 \texttt{costs}_i * \texttt{items}_i $$
 
- and then store the sum in ``value``.
+ and then store the sum in `value`.
    
-4. Print the ``value`` of the optimization objective to your terminal.
+4. Print the `value` of the optimization objective to your terminal.

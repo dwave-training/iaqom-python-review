@@ -22,9 +22,9 @@ For this assignment, define a function which includes all the `if` statements pr
 
 ## Exercise
 
-The Python file that you will work on is named ``function_practice.py``.  Open it, then follow the instructions below:
+The Python file that you will work on is named `function_practice.py`.  Open it, then follow the instructions below:
 
-1.	Create a function and name it ``grocery``.
-2.	Specify the parameter of the ``grocery`` function.
+1.	Create a function and name it `grocery`.
+2.	Specify the parameter of the `grocery` function.
 3.	Include all the `if` statements in your function, as provided in the previous `if` statement code.
-4.	Call the function by using the string argument ``"pork"``.
+4.	Call the function by using the string argument `"pork"`.
