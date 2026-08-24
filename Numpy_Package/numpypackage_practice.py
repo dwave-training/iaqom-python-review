@@ -1,4 +1,4 @@
-# TODO: Import the `NumPy` package and abbreviate it as `np`.
+# TODO: Import the `NumPy` package and alias it as `np`.
 
 
 # TODO: Create the distance array, `D`, using `NumPy`.

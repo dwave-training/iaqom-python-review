@@ -44,7 +44,7 @@ The goal of this assignment is to use NumPy built-in functions to create an $n Ã
 
 The Python file you will be working with is named `numpypackage_practice.py`.  Open it and follow the instructions below:
 
-1. Import the `numpy` package and abbreviate it as `np`.
+1. Import the `numpy` package and alias it as `np`.
 
 2. Using `numpy`, create the following two arrays:
 
