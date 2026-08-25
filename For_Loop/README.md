@@ -27,9 +27,9 @@ Open `forloop_practice.py` and complete the following instructions:
 
 - Name the first list `costs`. Add the following values, in order, to the list: 5, 10, 3, 4. This list represents the cost of each item.
 
-- Name the second list `items`. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents if the item is packed in the shipping container. If the value is equal to 1, the item is included in the container; if the value is equal to 0, the item is not included in the container.
+- Name the second list `items`. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents whether an item is packed in the shipping container. If the value is equal to 1, the item is included in the container; if the value is equal to 0, the item is not included in the container.
   
-2. Initialize `value`, in which the final answer is to be stored, by setting `value = 0`. Note that the value of `value` will change as the program runs.
+2. Initialize `value` by setting `value = 0`; this is where the final answer will be stored. Note that the value of `value` will change as the program runs.
    
 3. On a separate line, use a `for` loop to calculate the following:
    

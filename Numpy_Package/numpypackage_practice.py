@@ -1,7 +1,7 @@
-# TODO: Import the `NumPy` package and alias it as `np`.
+# TODO: Import the NumPy package and alias it as `np`.
 
 
-# TODO: Create the distance array, `D`, using `NumPy`.
+# TODO: Create the distance array, `D`, using NumPy.
 
 
 # TODO: Create a 1D-array, `x`, that contains a random ordering of the five locations.
@@ -31,7 +31,7 @@ print("The total distance traveled, excluding the return trip to the origin, is:
 print("The distance between the last location and the starting location is:", return_to_origin)
 
 
-#TODO: Compute the total distance traveled between locations, including the return trip to the origin.
+# TODO: Compute the total distance traveled between locations, including the return trip to the origin.
 
 
 # Print the value of the total distance.
