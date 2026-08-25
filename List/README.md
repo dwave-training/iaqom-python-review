@@ -4,7 +4,7 @@ For this activity, create a list of strings and then edit it.
 
 ## Exercise
 
-The Python file that you will work on is `list_practice.py`.  Open it, then follow the instructions below:
+Open `list_practice.py` and complete the following instructions:
 
 1.	Create a new list named `days`. Add the following strings, in order, to the list:
      “Monday”, “Tuesday”, “Wednesday”, “Wednesday”, “Friday”, and “Saturday” (Wednesday is repeated twice intentionally).

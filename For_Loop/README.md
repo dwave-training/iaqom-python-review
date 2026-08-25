@@ -16,7 +16,7 @@ For this assignment, use a `for` loop to return the value of the optimization ob
 
 - The cost of each item is $5, $10, $3, and $4, respectively.
 
-- Items 2 and 4 are packed in the container.
+- The second and fourth items are packed in the container.
 
 
 ## Exercise

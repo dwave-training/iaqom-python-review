@@ -16,12 +16,12 @@ For this assignment, the goal is to create a list comprehension that only return
 
 - The cost of each item is $5, $10, $3, and $4, respectively.
 
-- Items 2 and 4 are packed in the container.
+- The second and fourth items are packed in the container.
 
 
 ## Exercise
 
-The Python file that you will work on is named `listcomprehension_practice.py`.  Open it, then follow the instructions below:
+Open `listcomprehension_practice.py` and complete the following instructions:
 
 1. Create two new lists:
 

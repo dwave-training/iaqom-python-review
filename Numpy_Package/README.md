@@ -42,7 +42,7 @@ The goal of this assignment is to use NumPy built-in functions to create an $n Ã
 
 ## Exercise
 
-The Python file you will be working with is named `numpypackage_practice.py`.  Open it and follow the instructions below:
+Open `numpypackage_practice.py` and complete the following instructions:
 
 1. Import the NumPy package and alias it as `np`.
 
