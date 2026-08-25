@@ -10,7 +10,7 @@ A business wants to pack a shipping container. The objective is to maximize the 
 $$ \min - \sum_{i=1}^N c_i x_i $$
 
 
-For this assignment, use a `for` loop to return the value of the optimization objective when:
+For this assignment, use a `for` loop to return the value of the optimization objective under the following conditions:
 
 - The total number of items to select from is $N = 4$.	
 
@@ -21,20 +21,20 @@ For this assignment, use a `for` loop to return the value of the optimization ob
 
 ## Exercise
 
-The Python file you will work on is named `forloop_practice.py`.  Open it, then follow the instructions below:
+Open `forloop_practice.py` and complete the following instructions:
 
 1. Create two new lists:
 
 - Name the first list `costs`. Add the following values, in order, to the list: 5, 10, 3, 4. This list represents the cost of each item.
 
-- Name the second list `items`. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents if the item is packed in the shipping container. When the value is equal to 1, the item is included in the container; if it is equal to 0, the item is not in the container.
+- Name the second list `items`. Add the following values, in order, to the list: 0, 1, 0, 1. This list represents if the item is packed in the shipping container. If the value is equal to 1, the item is included in the container; if the value is equal to 0, the item is not included in the container.
   
-2. The final answer will be stored in `value`. To begin, set `value = 0`. This will change as the program runs.
+2. Initialize `value`, in which the final answer is to be stored, by setting `value = 0`. Note that the value of `value` will change as the program runs.
    
-3. On a separate line, use a for loop to calculate the following:
+3. On a separate line, use a `for` loop to calculate the following:
    
 $$ - \sum_{i=1}^4 \texttt{costs}_i * \texttt{items}_i $$
 
  and then store the sum in `value`.
    
-4. Print the `value` of the optimization objective to your terminal.
+4. Print `value`, which is the optimization objective's value to your terminal.

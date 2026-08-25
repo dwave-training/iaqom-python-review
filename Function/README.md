@@ -17,12 +17,12 @@ else:
     print("Chicken has fewer calories than pork.")
 ```
 
-For this assignment, define a function which includes all the `if` statements provided, then call that function with the string "pork" as the argument to print information about that grocery item.
+For this assignment, define a function that includes all the `if` statements provided; then, to print information about the pork grocery item, call that function with the string "pork" as the argument.
 
 
 ## Exercise
 
-The Python file that you will work on is named `function_practice.py`.  Open it, then follow the instructions below:
+Open `function_practice.py` and complete the following instructions:
 
 1.	Create a function and name it `grocery`.
 2.	Specify the parameter of the `grocery` function.

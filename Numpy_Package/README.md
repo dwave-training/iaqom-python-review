@@ -2,9 +2,9 @@
 An individual is planning a driving trip to visit $n$ different locations exactly once. They want to drive the shortest distance possible to see all $n$ locations. The objective is to minimize the distance traveled between locations, including the return trip to the origin.
 
 
-- The variable, $x$, represents the order of all locations the individual must visit.
+- The variable $x$ represents the order of all locations the individual must visit.
 
-- The array, $D$, is of size $n × n$ and represents the travel distance (in kilometers) between each location, including the starting location.
+- The array $D$ is of size $n × n$ and represents the travel distance (in kilometers) between each location, including the starting location.
 
     **Note:**
     - The distance from location $a$ to location $b$ is the same as the distance from location $b$ to location $a$, therefore $D[a,b]=D[b,a]$.
@@ -32,8 +32,8 @@ The objective function is:
 
   **Note:**
 
-  - The first portion, `D[x[:-1], x[1:]]`, calculates the distance between one location and the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all the distances.
-  - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the starting location.
+  - The first portion `D[x[:-1], x[1:]]` calculates the distance between one location and the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all the distances.
+  - The second portion `D[x[-1], x[0]]` adds the distance between the last location and the starting location.
   - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
 </li>
 </ul>
