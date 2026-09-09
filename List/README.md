@@ -1,0 +1,12 @@
+# Change a List
+
+For this activity, create a list of strings and then edit it.
+
+## Exercise
+
+Open `list_practice.py` and complete the following instructions:
+
+1.	Create a new list named `days`. Add the following strings, in order, to the list:
+     “Monday”, “Tuesday”, “Wednesday”, “Wednesday”, “Friday”, and “Saturday” (Wednesday is repeated twice intentionally).
+2.	On a separate line, replace the second occurrence of “Wednesday” with the string “Thursday”.
+3.	Print the updated `days` list to your terminal.
